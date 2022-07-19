@@ -1,0 +1,339 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+Makefile:4: warning: overriding recipe for target 'run'
+Makefile:2: warning: ignoring old recipe for target 'run'
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul 19 14:29:07 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/gnumi34/.gtkrc:/home/gnumi34/.config/gtkrc
+# environment
+LC_NUMERIC = id_ID.UTF-8
+# environment
+VSCODE_CWD = /home/gnumi34
+# environment
+GPG_TTY = not a tty
+# default
+MAKE_COMMAND := make
+# environment
+GOPATH = /home/gnumi34/.go:/home/gnumi34/Work/WGS/Golang:/media/gnumi34/works-entertainment/Work/WGS/App/Golang:/media/gnumi34/works-entertainment/Work/Golang
+# environment
+define BASH_FUNC_which%%
+() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+endef
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+GDK_DPI_SCALE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /media/gnumi34/works-entertainment/Work/Golang/src/github.com/gnumi34/word-counter
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = linux.gnumi
+# environment
+MAIL = /var/spool/mail/gnumi34
+# environment
+XDG_DATA_DIRS = /home/gnumi34/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/gnumi34/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+SSH_ASKPASS = /usr/bin/ksshaskpass
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/xauth_LoivxI
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+PLASMA_USE_QT_SCALING = 1
+# makefile
+CURDIR := /media/gnumi34/works-entertainment/Work/Golang/src/github.com/gnumi34/word-counter
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/ssh-agent.socket
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+HISTSIZE = 1000
+# environment
+XDG_CONFIG_DIRS = /home/gnumi34/.config/kdedefaults:/etc/xdg:/usr/share/kde-settings/kde-profile/default/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+LC_COLLATE = id_ID.UTF-8
+# environment
+VSCODE_PID = 3029
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GDK_CORE_DEVICE_EVENTS = 1
+# environment
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/1229,unix/unix:/tmp/.ICE-unix/1229
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/gnumi34/.local/bin:/home/gnumi34/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/var/lib/snapd/snap/bin:/usr/local/go/bin:/media/gnumi34/works-entertainment/Work/Golang/bin:/media/gnumi34/works-entertainment/Work/WGS/App/Golang/bin:/home/gnumi34/.go/bin:/usr/local/go/bin:/media/gnumi34/works-entertainment/Work/Golang/bin:/media/gnumi34/works-entertainment/Work/WGS/App/Golang/bin:/home/gnumi34/.go/bin
+# environment
+MOZ_GMP_PATH = /usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_US
+# environment
+LC_MONETARY = id_ID.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = id_ID.UTF-8
+# environment
+INVOCATION_ID = 053dc9e347c34f55a6c298d310d66c1f
+# environment
+GDK_SCALE = 1
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+GTK_IM_MODULE = ibus:xim
+# environment
+GIT_PS1_SHOWDIRTYSTATE = 1
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+KDEDIRS = /usr
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = gnumi34
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := run
+# environment
+SYSTEMD_EXEC_PID = 1249
+# environment
+HISTCONTROL = ignoredups
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :1
+# environment
+USER = gnumi34
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+MANAGERPID = 1099
+# environment
+QT_WAYLAND_FORCE_DPI = 96
+# environment
+which_declare = declare -f
+# environment
+LC_MEASUREMENT = id_ID.UTF-8
+# environment
+DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/
+# environment
+XKB_DEFAULT_LAYOUT = us
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GOMODCACHE = /home/gnumi34/.go/pkg/mod
+# environment
+JOURNAL_STREAM = 8:28982
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/gnumi34/.gtkrc-2.0:/home/gnumi34/.gtkrc-2.0-kde4:/home/gnumi34/.config/gtkrc-2.0
+# environment
+HOME = /home/gnumi34
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-8232dd6a-1.69.1-main.sock
+# environment
+XDG_SESSION_ID = 2
+# environment
+XCURSOR_SIZE = 24
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+KDE_FULL_SESSION = true
+# environment
+XDG_MENU_PREFIX = kf5-
+# variable set hash-table stats:
+# Load=124/1024=12%, Rehash=0, Collisions=6/154=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 1808, inode 541104): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+ 
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-19 14:26:18.6525125
+#  File has been updated.
+#  Successfully updated.
+
+mock:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 6):
+	@mockery --all --dir=pkg/domain/repository --output pkg/domain/mocks --case underscore
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 4):
+	@go test -v ./...
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=1/17=6%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 16 / storage = 118 B / avg = 7 B
+# current buf: size = 8162 B / used = 118 B / count = 16 / avg = 7 B
+
+# strcache performance: lookups = 24 / hit rate = 33%
+# hash-table stats:
+# Load=16/8192=0%, Rehash=0, Collisions=0/24=0%
+# Finished Make data base on Tue Jul 19 14:29:07 2022
+
+ 
